@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+int main(){
+	
+	
+	
+	int num,resto,contpar = 0,contimpar = 0;
+	
+	
+	for(num=1000;num<= 2000; num ++){
+		
+		resto = num %2;
+		
+		if(resto == 0){
+			
+			contpar = contpar +1;
+			
+		}else{
+			
+			contimpar = contimpar +1;
+		}
+		
+	}
+	 
+	 printf(" Qual a quantidade de pares e %d\n",contpar);
+	 printf(" Qual a quantidade de impares e %d\n",contimpar);
+
+	
+system("pause");
+	
+return 0;	
+}

@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+float salario,aumento;
+
+int main(){
+	
+	
+	printf("Digite o salario do funcionario\n");
+	scanf("%f",&salario);
+	
+	
+	aumento= salario + ( salario*0.25); // aumento= salario + (salario*25/100) tanto faz o resultado e o mesmo.
+	
+	
+	printf("Seu novo salario e de %2.2f\n", aumento);
+	
+
+system("pause");
+return 0;	
+}
